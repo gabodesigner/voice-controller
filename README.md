@@ -2,7 +2,7 @@
 Cubo Controlado por Voz
 
 
-Aqui está uma <a href="gabodesigner.com/cubo" target="_blank">Prévia<a/> do Código! 
+Aqui está uma Prévia do Código!  http://gabodesigner.com/cubo
 
 Espero que Gostem e  que me ajudem a melhorar! 
 
