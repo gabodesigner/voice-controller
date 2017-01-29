@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Cubo Controlado por Voz By Gabo</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel='stylesheet prefetch' href='https://rawgit.com/daneden/animate.css/master/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+      
+
+
+</head>
+
+<body>
+  <main class="main">
+  <header class="header">
+    <h1 class="header__title">Cubo Controlado por Comandos de  Voz</h1>
+
+    <p>O Controle de voz funciona melhor com uma sentença completa, por exemplo: "Para baixo", "Para a Direita"... Ou <a href="#modal1" class="modal-trigger">Clique aqui para ver os comandos</a>. <strong>Funciona melhor no Google Chrome.</strong></p>
+  </header>
+
+  <div class="cube">
+    <div data-cube class="show-front">
+      <div class="cube__side--front">Frente</div>
+      <div class="cube__side--back">Costas</div>
+      <div class="cube__side--top">Em Cima</div>
+      <div class="cube__side--bottom">Em Baixo</div>
+      <div class="cube__side--left">Esquerda</div>
+      <div class="cube__side--right">Direita</div>
+    </div>
+  </div>
+</main>
+
+<a data-start class="record-btn btn-floating btn-large waves-effect waves-light teal"><i class="material-icons">mic</i></a>
+
+<div data-speech class="speech"><p class="speech__inner">Fale agora..</p></div>
+
+ <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Comandos Aceitados</h4>
+      <p>Os comandos abaixo estão configurados para funcionar no Cubo</p>
+      <ul class="list">
+        <li>Esquerda</li>
+        <li>Direita</li>
+        <li>Em Cima</li>
+        <li>Em Baixo</li>
+        <li>Frente</li>
+        <li>Costas</li>
+        <li>Balançar</li>
+        <li>Pulsar</li>
+        <li>Chacoalhar</li>
+        <li>Swingar</li>
+        <li>uau</li>
+        <li>Jesus</li>
+        <li>Dobrar</li>
+        <li>Girar</li>
+      </ul>
+    </div>
+  </div>
+<div class="me"
+<a href="http://gabodesigner.com" target="_blank">  <img src="img/img-fc.jpg"  width="200px"> </a></div>
+  <script src='https://code.jquery.com/jquery-2.1.4.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
